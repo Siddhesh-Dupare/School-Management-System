@@ -1,0 +1,9 @@
+@media only screen and (max-width: 900px) {
+  .header .menu-icon {
+    display: contents;
+  }
+
+  .menu-items {
+    display: none;
+  }
+}
