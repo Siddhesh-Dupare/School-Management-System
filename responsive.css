@@ -1,3 +1,52 @@
+@media only screen and (max-width: 500px) {
+  .header h1 {
+    font-size: 0.9rem;
+  }
+
+  main .top-section {
+    justify-content: center;
+    height: 40vh;
+  }
+
+  .top-section .main-title p::before {
+    width: 60px;
+    height: 6px;
+    margin-right: 15px;
+  }
+
+  .top-section .main-title p {
+    font-size: 0.9rem;
+  }
+
+  .top-section .main-title h2 {
+    font-size: 1.8rem;
+    line-height: 33px;
+    margin: 20px 0;
+  }
+
+  .top-section .main-title button {
+    width: 100px;
+    height: 40px;
+    font-size: 0.8rem;
+  }
+
+  .top-section .rect-gallery {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .top-section .rect-gallery .big-rect {
+    width: 210px;
+    height: 210px;
+  }
+
+  .top-section .rect-gallery .small-rect {
+    width: 170px;
+    height: 170px;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   .header .menu-icon {
     display: contents;
@@ -5,5 +54,11 @@
 
   .menu-items {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 1160px) {
+  main .top-section {
+    flex-direction: column;
   }
 }
