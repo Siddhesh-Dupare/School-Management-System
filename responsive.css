@@ -61,4 +61,9 @@
   main .top-section {
     flex-direction: column;
   }
+
+  .about-section .about-image {
+    width: 400px;
+    height: 200px;
+  }
 }
