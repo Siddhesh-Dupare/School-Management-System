@@ -111,8 +111,7 @@ main .top-section {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
-  flex: 1 200px;
+  flex-flow: wrap;
 }
 
 .second-section .square {
@@ -153,6 +152,8 @@ main .top-section {
   height: 100vh;
   display: flex;
   justify-content: center;
+  align-items: center;
+  border: 2px solid black;
 }
 
 .about-section .about-image {
